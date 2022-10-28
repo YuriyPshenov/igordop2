@@ -33,8 +33,8 @@ function App() {
 
     return (
         <div className="App">
-            <Button name={'Show me'} callBack={useShowUp}/>
-            <Button name={'Clean me'} callBack={cleanMe}/>
+            <Button name={'Show me!'} callBack={useShowUp}/>
+            <Button name={'Clean me!'} callBack={cleanMe}/>
             <ul>
                 {show.map(el => {
                     return (
